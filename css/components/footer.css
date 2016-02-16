@@ -1,6 +1,6 @@
 
 #footer {
-  background: #333333;
+  background: black;
   padding: 30px 0;
   color: #CCCCCC;
 }
@@ -17,5 +17,5 @@
   transition: color 0.9s ease;
 }
 #footer a:hover{
-  color: red;
+  color: blue;
 }
