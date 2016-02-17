@@ -23,3 +23,45 @@ h2 {
 .wrapper-grey {
   background: black;
 }
+
+.wrapper-grey h2{
+  color:white;
+  text-shadow:black;
+}
+
+.navbar {
+  opacity:0.8;
+}
+
+.banner-content h1 {
+  color:white;
+  text-shadow: 2px 2px #ff0000;
+  opacity:0.9;
+}
+.banner-content p{
+  color:white;
+  text-shadow: 1px 1px black;
+  
+  opacity:0.6;
+}
+
+.navbar-brand {
+  width:40px;
+  height:45px;
+}
+
+.navbar-brand:hover {
+  color:white;
+  transition: 200ms ease-in;
+}
+.navbar a:hover {
+  color:white;
+  transition: 200ms ease-in;
+}
+
+.invert:hover {
+  -webkit-filter: invert(100%); filter: invert(100%);
+  transition: 300ms ease-in;
+}
+
+
