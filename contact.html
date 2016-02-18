@@ -31,7 +31,7 @@
       </head>
 
       <body>
-        <!-- Navigation -->
+<!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav" float:left >
                 <li>
-                  <a href="visie.html">Over</a>
+                  <a href="visie.html">Over ons</a>
                 </li>
                 <li>
                   <a href="menu.html">Menu</a>
@@ -64,24 +64,38 @@
           </div>
           <!-- /.container -->
         </nav>
-      <div class="banner" style="background: linear-gradient(-225deg, rgba(255, 165, 0, 0.4) 0%, rgba(255,255,0,0.1) 50%), url('images/background.jpg');height:60vh;">
+      <div class="banner" style="background:  url('images/background5.jpg');height:60vh;">
          <!--    <div class="banner" style="background: linear-gradient(-20deg, rgba(255, 165, 0, 1) 0%, rgba(255, 255, 0, 1) 50%), url('images/background.jpg');"> -->
          <div class="banner-content">
-          <h1>Contact</h1>
-
+         <h1></h1>
         </div>
       </div>
-
-            <div class="container text-center padded features">
+      <div class="container text-center padded features">
         <div class="row">
           <div class="col-xs-12">
-                    <h1>Contact</h1>
-          <p>+3122333292.</p>
-          <p>opdehoek@opdehoek.nl.</p>
-          <p>zeeweg 31</p>
+            <h1>Contact</h1>
+            <p>+3122333292.</p>
+            <p>opdehoek@opdehoek.nl.</p>
+            <p>zeeweg 31</p>
+            <script type="text/javascript"><!--
+              function makeArray() {
+                for (i = 0; i<makeArray.arguments.length; i++)
+                  this[i + 1] = makeArray.arguments[i];
+              }
+
+              var months = new makeArray('January','February','March','April','May',
+                'June','July','August','September','October','November','December');
+              var date = new Date();
+              var day = date.getDate();
+              var month = date.getMonth() + 1;
+              var yy = date.getYear();
+              var year = (yy < 1000) ? yy + 1900 : yy;
+
+              document.write(day + " " + months[month] + " " + year);
+            </script>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
 
     <div class="wrapper-grey padded">
       <div class="container">
@@ -196,10 +210,7 @@
 </div>
 <!-- jQuery -->
 <script src="js/jquery.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
-
-
 </body>
 </html>
