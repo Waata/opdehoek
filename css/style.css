@@ -18,6 +18,10 @@ h2 {
   margin-top: 0;
 }
 
+.pad{
+  padding:30px;
+}
+
 .padded {
   padding: 60px 0;
 }
