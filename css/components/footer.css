@@ -1,9 +1,9 @@
-
 #footer {
   background: black;
+  opacity:0.9;
   padding: 30px 0;
-  color: #CCCCCC;
-}
+/*  color: #CCCCCC;
+*/}
 #footer p {
   margin-top: 17px;
 }

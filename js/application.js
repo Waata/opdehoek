@@ -1,9 +1,6 @@
-// $( document ).ready(function() {
-//   // Handler for .ready() called.
-
-// $( "#" ).click(function() {
-//   $( "#navbar-header" ).hide( "slow", function() {
-//     alert( "WELKOM BIJ OPDEHOEK" );
-//   });
+// $(document).ready(function(){
+//   // Set the interval to be 5 seconds
+//   var t = setInterval(function(){
+//     $("#carousel ol").animate({marginLeft:-480},1000)
+//   },2000);
 // });
-//   

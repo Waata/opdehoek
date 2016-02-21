@@ -10,16 +10,11 @@ body {
 
 .navbar-fixed-top .nav {
     padding: 20px 0;
-
-
 }
 .navbar-header{
-  padding-left:30px;
+  padding-left:0px;
 }
-/*.navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
 
-}*/
 
 @media (min-width:0px) {
     body {
@@ -30,7 +25,6 @@ body {
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
         border-width: 30px;
-
     }
 }
 
@@ -44,7 +38,7 @@ body {
   color:white;
   text-shadow: 2px 2px #ff0000;
   opacity:0.9;
-  left:40px;
+  left:0px;
 }
 .banner-content p{
   color:white;
@@ -59,9 +53,4 @@ body {
 .invert:hover {
   -webkit-filter: invert(100%); filter: invert(100%);
   transition: 300ms ease-in;
-
-}
-/* makes logo go left*/
-.left{
-  margin-left:20px;
 }

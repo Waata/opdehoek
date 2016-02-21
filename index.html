@@ -1,142 +1,151 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>OpDeHoek Bakkum</title>
-  <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/logo-nav.css" rel="stylesheet">
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">      
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="Opdehoek" content="">
   <meta name="pizzeria op camping bakkum" content="">
-</head>
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand invert" href="index.html">
-          <img src="images/logo.png" width="85px" />
-        </a>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav" float:left >
-          <li>
-            <a href="visie.html">Over ons</a>
-          </li>
-          <li>
-            <a href="menu.html">Menu</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="application.js"></script>
 
-  <!-- /.navbar-collapse -->
-</div>
-<!-- /.container -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">      
+  <!-- Navigation -->
+</head>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand invert" href="index.html">
+        <img src="images/logo.png" width="85px" />
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" float:left >
+        <li>
+          <a href="visie.html">Over ons</a>
+        </li>
+        <li>
+          <a href="menu.html">Menu</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
-<div class="banner" style="background: url('images/card-brussels.jpg');height:80vh;">
- <div class="banner-content">
-<!--        <div class="container text-center">
-         <a class="banner-brand invert" href="index.html">
-      <img src="images/logo.png" width="250px" />
-    </a>
-  </div> -->
-  <!-- <h1>WELKOM BIJ OPDEHOEK</h1> -->
-          <!-- <form action="#" class="form-inline">
-            <input type="text" class="form-control input-lg" placeholder="checkin">
-            <input type="text" class="form-control input-lg" placeholder="checkout">
-              <select name="" id="" class="form-control input-lg">
-              <option value="1">1 person</option>
-                <option value="2">2 persons</option>
-                <option value="3">3 persons</option>
-                </select>
-              <input type="submit" class="btn btn-primary btn-lg" value="Search">
-            </form> -->
+<div class="bs-example">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"data-interval="6000">
+    <!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>   
+    <!-- Wrapper for carousel items -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/card-brussels.jpg" alt="First Slide">
+      </div>
+      <div class="item">
+       <img src="images/background.jpg" alt="Second Slide">
+     </div>
+     <div class="item">
+      <img src="images/background6.jpg" alt="Third Slide">
+    </div>
+    <div class="item">
+      <img src="images/background7.jpg" alt="Fourth Slide">
+    </div>
+    <div class="item">
+      <img src="images/background5.jpg" alt="Fifth Slide">
+    </div>
+    <div class="item">
+      <img src="images/background.jpg" alt="First Slide">
+    </div>
+  </div>
+  <!-- Carousel controls -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+</div>
+
+
+<div class="container text-center pad features">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4 col-md-4">
+      <i class="fa fa-coffee"></i>
+      <h2>Drink</h2>
+      <p>koffie</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4">
+      <i class="fa fa-thumbs-up"></i>
+      <h2>ontmoet</h2>
+      <p>elkaar</p>
+    </div>
+    <div class="col-xs-12 col-sm-4 col-md-4">
+      <i class="fa fa-toggle-on"></i>
+      <h2>geniet</h2>
+      <p>aan</p>
+    </div>
+  </div>
+</div>
+<div class="wrapper-grey padded">
+  <div class="container">
+    <h2 class="text-center">Bij uw volgende bezoek.</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.jpg');">
+          <div class="card-category">Lunch</div>
+          <div class="card-description">
+            <p>Heerlijke boerenlandbroodjes.</p>
           </div>
-        </div>
-      <div class="container text-center pad features">
-        <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fa fa-coffee"></i>
-            <h2>Drink</h2>
-            <p>koffie</p>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fa fa-thumbs-up"></i>
-            <h2>ontmoet</h2>
-            <p>elkaar</p>
-         </div>
-         <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fa fa-toggle-on"></i>
-            <h2>geniet</h2>
-            <p>aan</p>
+          <a class="card-link" href="lunch.html" ></a>
         </div>
       </div>
-    </div>
-    <div class="wrapper-grey padded">
-      <div class="container">
-        <h2 class="text-center">Bij uw volgende bezoek.</h2>
-        <div class="row">
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-london.jpg');">
-              <div class="card-category">Lunch</div>
-              <div class="card-description">
-                <!-- <h2>Romain's home</h2> -->
-                <p>Heerlijke boerenlandbroodjes.</p>
-              </div>
-              <!--  <img class="card-user avatar avatar-large" src="images/romain.jpeg"> -->
-              <a class="card-link" href="menu.html" ></a>
-            </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.jpg');">
+          <div class="card-category">Koffie</div>
+          <div class="card-description">
+            <p>Vers gebrandde koffie van brandmeesters.</p>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/card-brussels.jpg');">
-              <div class="card-category">Koffie</div>
-              <div class="card-description">
-                <!-- <h2>Anne's home</h2> -->
-                <p>Vers gebrandde koffie van brandmeesters.</p>
-              </div>
-              <!-- <img class="card-user avatar avatar-large" src="images/anne.jpg"> -->
-              <a class="card-link" href="http://www.brandmeesters.nl/" ></a>
-            </div>
+          <a class="card-link" href="http://www.brandmeesters.nl/" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/background.jpg');">
+          <div class="card-category">Pizza's</div>
+          <div class="card-description">
+            <p>Ovenheerlijke houtoven pizza.</p>
           </div>
-          <div class="col-xs-12 col-sm-4">
-            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('images/background.jpg');">
-              <div class="card-category">Pizza's</div>
-              <div class="card-description">
-                <!-- <h2>Seb's home</h2> -->
-                <p>Ovenheerlijke houtoven pizza.</p>
-              </div>
-              <!--  <img class="card-user avatar avatar-large" src="images/seb.jpg"> -->
-              <a class="card-link" href="menu.html" ></a>
-            </div>
-          </div>
+          <a class="card-link" href="diner.html" ></a>
         </div>
       </div>
     </div>
   </div>
 </div>
-
 <div class="text-center padded" id="newsletter">
   <h2>Blijf op de hoogte.</h2>
   <p>Laat je mail achter en blijf op de hoogte.</p>
@@ -145,15 +154,7 @@
     <input type="submit" value="Subscribe" class="btn btn-primary">
   </form>
 </div>
-
-
-
-
-
-
 <div id="map" style="width: 100%;height: 300px;"></div>
-
-
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 <script type="text/javascript">
   var myLatlng = new google.maps.LatLng(52.563093, 4.630674);
@@ -173,16 +174,6 @@
     title:"OpDeHoek"
   });
 </script>
-
-<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
 <div id="footer">
   <div class="container">
     <div class="row">
@@ -200,18 +191,7 @@
     </div>
   </div>
 </div>
+</div>
 
-<!-- Including jQuery from the Google CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
-<!-- Jquery & Java functions -->
-<script src="js/application.js"></script>
-
-
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
