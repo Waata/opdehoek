@@ -1,0 +1,56 @@
+<div class="banner" style="background: url('images/background6.jpg');height:60vh;">
+</div>
+<div class="wrapper-grey padded">
+  <div class="container">
+    <h2 class="text-center">Ons menu.</h2>
+    <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/background.jpg');height:600px">
+           <div class="card-category">Diner</div>
+           <div class="card-description">
+            <h1><% data.dinerkaart.name %></h1>
+            <% data.dinerkaart.diner.each do |d| %>
+            <h4><%= d %></h4>
+            <% end %>
+          </div>
+          <a class="card-link" href="diner.html" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/card-london.jpg');height:600px">
+          <div class="card-category">Lunch</div>
+          <div class="card-description">    
+            <h1><% data.lunchkaart.first %></h1>
+              <% data.lunchkaart.lunch.each do |l| %>
+              <h4><%= l %></h4>
+              <% end %>
+            </div>
+            <a class="card-link" href="lunch.html" ></a>
+          </div>
+        </div>   
+      <div class="wrapper-grey padded">
+        <div class="container">
+          <div class="col-xs-12  ">
+            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('images/card-brussels.jpg');">
+              <div class="card-category"></div>
+              <div class="card-description">
+                <h2>‘Feesten & Partijen’</h2>
+                <p>Bij Op De Hoek zijn onze gasten altijd welkom voor een heerlijk aangeklede avond.</p>
+              </div>
+              <a class="card-link" href="" ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center padded" id="newsletter">
+    <h2>Blijf op de hoogte.</h2>
+    <p>Laat je mail achter en blijf op de hoogte.</p>
+    <form class="form-inline">
+      <input type="email" placeholder="bakkum@gmail.com" class="form-control">
+      <input type="submit" value="Subscribe" class="btn btn-primary">
+    </form>
+  </div>
+
+

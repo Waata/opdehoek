@@ -1,0 +1,17 @@
+      <div class="banner" style="background: url('images/background6.jpg');height:60vh;">
+      </div>
+      <div class="container text-center features padded">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Diner</h1>
+            <h1><% data.dinerkaart.name %></h1>
+            <% data.dinerkaart.diner.each do |d| %>
+            <h4><%= d %></h4>
+            <h3><%= p %></h3>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+

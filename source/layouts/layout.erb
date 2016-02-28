@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <title>OpDeHoek Bakkum</title>
+  <meta charset="utf-8">
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <!-- For Bootstrap responsiveness -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Opdehoek" content="">
+  <meta name="pizzeria op camping bakkum" content="">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:300,400,500,700"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <title><%= current_page.data.title || "Pizzeria OpDeHoek" %></title>
+
+  <%= stylesheet_link_tag "all" %>
+  <%= javascript_include_tag  "all" %>
+    </head>
+
+    <body class="<%= page_classes %>">
+      <%= partial "navbar" %>
+      <%= yield %>
+      <%= partial "footer" %>
+    </body>
+    </html>
+    

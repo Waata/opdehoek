@@ -1,0 +1,16 @@
+      <div class="banner" style="background: url('images/background6.jpg');height:60vh;">
+      </div>
+      <div class="container text-center features padded">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>Lunch</h1>
+            <h1><% data.lunchkaart.first %></h1>
+            <% data.lunchkaart.lunch.each do |l| %>
+            <h4><%= l %></h4>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
