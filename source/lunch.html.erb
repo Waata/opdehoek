@@ -4,13 +4,12 @@
         <div class="row">
           <div class="col-xs-12">
             <h1>Lunch</h1>
-            <h1><% data.lunchkaart.first %></h1>
-            <% data.lunchkaart.lunch.each do |l| %>
-            <h4><%= l %></h4>
+            <% data.lunch.each do |dish| %>
+                <h2><%= dish["name"] %></h2>  
+                <h3><%= dish["description"] %></h3> 
+                <h4><%= dish["price"] %></h4> 
             <% end %>
           </div>
         </div>
       </div>
     </div>
-
-

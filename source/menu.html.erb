@@ -4,30 +4,30 @@
   <div class="container">
     <h2 class="text-center">Ons menu.</h2>
     <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/background.jpg');height:600px">
-           <div class="card-category">Diner</div>
-           <div class="card-description">
-            <h1><% data.dinerkaart.name %></h1>
-            <% data.dinerkaart.diner.each do |d| %>
-            <h4><%= d %></h4>
-            <% end %>
-          </div>
-          <a class="card-link" href="diner.html" ></a>
-        </div>
-      </div>
       <div class="col-xs-12 col-md-6">
-        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/card-london.jpg');height:600px">
-          <div class="card-category">Lunch</div>
-          <div class="card-description">    
-            <h1><% data.lunchkaart.first %></h1>
-              <% data.lunchkaart.lunch.each do |l| %>
-              <h4><%= l %></h4>
-              <% end %>
-            </div>
-            <a class="card-link" href="lunch.html" ></a>
-          </div>
-        </div>   
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/background.jpg');height:600px">
+         <div class="card-category">Diner</div>
+         <div class="card-description">
+          <% data.diner.each do |dish| %>
+          <h2><%= dish["name"] %></h2>  
+          <h4><%= dish["description"] %></h4> 
+          <% end %>
+        </div>
+        <a class="card-link" href="diner.html" ></a>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/card-london.jpg');height:600px">
+        <div class="card-category">Lunch</div>
+        <div class="card-description">
+          <% data.lunch.each do |dish| %>
+          <h2><%= dish["name"] %></h2>  
+          <h4><%= dish["description"] %></h4>  
+          <% end %>
+        </div>
+        <a class="card-link" href="lunch.html" ></a>
+      </div>
+    </div>   
       <div class="wrapper-grey padded">
         <div class="container">
           <div class="col-xs-12  ">

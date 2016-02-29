@@ -1,0 +1,13 @@
+# diner yml
+
+- name: Pizza margarita
+  description: mozzarella strooikaas basilicum olie
+  price: 10,-
+- name: Pizza 4 formaggi
+  description: 4 kazen oa blauwe en witte
+  price: 12,-
+- name: Pizza margarita
+  description: mozzarella strooikaas basilicum olie
+  price: 10,-
+
+# past niet in card!!!

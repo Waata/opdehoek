@@ -3,16 +3,12 @@
 // = require_tree .
 
 
-
 // alert("Welkom op de Beta site van OpDeHoek")
 
 (function ($) {
 var isNavBarShown = true;
 
     $(document).ready(function () {
-
-        // hide .navbar first
-        // $(".navbar").hide(false);
 
         // fade in .navbar
             $(window).scroll(function () {
