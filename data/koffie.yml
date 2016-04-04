@@ -1,0 +1,10 @@
+
+- name: Koffie
+  description: Americano
+  price: 10,-
+- name: Espresso
+  description: klein maar sterk
+  price: 12,-
+- name: Cappucino
+  description: espresso met opgeschuimde melk
+  price: 10,-
