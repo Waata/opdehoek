@@ -27,7 +27,7 @@
 
     <body class="menu">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
-  <div class="container">
+  <div class="nav-container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -37,7 +37,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand invert" href="index.html">
-        <img src="images/logo.png" width="85px" />
+        <img src="images/logo.png" width="50px" />
       </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,58 +62,67 @@
   <div class="container">
     <h2 class="text-center">Ons menu.</h2>
     <div class="row">
+
+      <div class="col-xs-12 col-md-6">
+        <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/card-london.jpg');height:600px">
+          <div class="card-category">Lunch</div>
+          <div class="card-description">
+            <div class = "dish-name">Old Amsterdam</div>  
+            <div class = "dish-description">heerlijk broodje met oude kaas</div>
+            <div class = "dish-name">Old Amsterdam</div>  
+            <div class = "dish-description">heerlijk broodje met oude kaas</div>
+            <div class = "dish-name">Old Amsterdam</div>  
+            <div class = "dish-description">heerlijk broodje met oude kaas</div>
+          </div>
+          <a class="card-link" href="lunch.html" ></a>
+        </div>
+      </div> 
       <div class="col-xs-12 col-md-6">
         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/background.jpg');height:600px">
          <div class="card-category">Diner</div>
          <div class="card-description">
-          <h2>Pizza margarita</h2>  
-          <h4>mozzarella strooikaas basilicum olie</h4> 
-          <h2>Pizza 4 formaggi</h2>  
-          <h4>4 kazen oa blauwe en witte</h4> 
-          <h2>Pizza margarita</h2>  
-          <h4>mozzarella strooikaas basilicum olie</h4> 
+          <div class = "dish-name">Pizza margarita</div>  
+          <div class = "dish-description">mozzarella strooikaas basilicum olie</div>
+          <div class = "dish-name">Pizza 4 formaggi</div>  
+          <div class = "dish-description">4 kazen oa blauwe en witte</div>
+          <div class = "dish-name">Pizza margarita</div>  
+          <div class = "dish-description">mozzarella strooikaas basilicum olie</div>
         </div>
         <a class="card-link" href="diner.html" ></a>
       </div>
-    </div>
-    <div class="col-xs-12 col-md-6">
-      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/card-london.jpg');height:600px">
-        <div class="card-category">Lunch</div>
+    </div> 
+    <div class="col-xs-12  ">
+      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('images/card-brussels.jpg');">
+        <div class="card-category"></div>
         <div class="card-description">
-          <h2>Old Amsterdam</h2>  
-          <h4>heerlijk broodje met oude kaas</h4>  
-          <h2>Old Amsterdam</h2>  
-          <h4>heerlijk broodje met oude kaas</h4>  
-          <h2>Old Amsterdam</h2>  
-          <h4>heerlijk broodje met oude kaas</h4>  
+          <p>Bij Op De Hoek zijn onze gasten altijd welkom voor een heerlijk kopje koffie.</p>
+          <div class = "dish-name">Koffie</div>  
+          <div class = "dish-name">Espresso</div>  
+          <div class = "dish-name">Cappucino</div>  
         </div>
-        <a class="card-link" href="lunch.html" ></a>
+        <a class="card-link" href="" ></a>
       </div>
-    </div>   
-      <div class="wrapper-grey padded">
-        <div class="container">
-          <div class="col-xs-12  ">
-            <div class="card" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('images/card-brussels.jpg');">
-              <div class="card-category"></div>
-              <div class="card-description">
-                <h2>‘Feesten & Partijen’</h2>
-                <p>Bij Op De Hoek zijn onze gasten altijd welkom voor een heerlijk aangeklede avond.</p>
-              </div>
-              <a class="card-link" href="" ></a>
-            </div>
-          </div>
+    </div>
+    <div class="col-xs-12  ">
+      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('images/card-brussels.jpg');">
+        <div class="card-category"></div>
+        <div class="card-description">
+          <h2>‘Feesten & Partijen’</h2>
+          <p>Bij Op De Hoek zijn onze gasten altijd welkom voor een heerlijk aangeklede avond.</p>
         </div>
+        <a class="card-link" href="" ></a>
       </div>
     </div>
   </div>
-  <div class="text-center padded" id="newsletter">
-    <h2>Blijf op de hoogte.</h2>
-    <p>Laat je mail achter en blijf op de hoogte.</p>
-    <form class="form-inline">
-      <input type="email" placeholder="bakkum@gmail.com" class="form-control">
-      <input type="submit" value="Subscribe" class="btn btn-primary">
-    </form>
-  </div>
+</div>
+<div class="text-center padded" id="newsletter">
+  <h2>Blijf op de hoogte.</h2>
+  <p>Laat je mail achter en blijf op de hoogte.</p>
+  <form class="form-inline">
+    <input type="email" placeholder="bakkum@gmail.com" class="form-control">
+    <input type="submit" value="Subscribe" class="btn btn-primary">
+  </form>
+</div>
 
 
 
@@ -126,7 +135,7 @@
             </div>
             <div class="col-xs-8 text-right">
               <a class="invert" href="index.html">
-            <img src="images/logo.png" width="85px" />
+            <img src="images/logo.png" width="55px" />
           </a>
         <a href= "http://waata.github.io/" Design: Wouter Kompier</p>
         </ul>

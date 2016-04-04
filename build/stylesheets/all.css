@@ -10145,7 +10145,7 @@ h2 {
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2); }
 
-/* line 19, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_banner.scss */
+/* line 17, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_banner.scss */
 .banner p {
   font-size: 25px;
   font-weight: lighter;
@@ -10177,7 +10177,7 @@ h2 {
 
 /* line 24, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
 .index .carousel .item {
-  max-height: 500px; }
+  max-height: 550px; }
 
 /* line 28, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
 .index .carousel .item {
@@ -10186,77 +10186,61 @@ h2 {
   background-position: fixed;
   background-position: center; }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-/* Center align the text within the three columns below the carousel */
-/* line 39, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center; }
+/* line 35, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+.carousel-control {
+  opacity: 0.1;
+  size: 10px; }
 
-/* line 43, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
-.marketing h2 {
-  font-weight: normal; }
+/* line 40, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+.carousel-control {
+  opacity: 0.1;
+  size: 10px; }
 
-/* line 46, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px; }
-
-/* Featurettes
-------------------------- */
-/* line 55, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
-.featurette-divider {
-  margin: 0px 0;
-  /* Space out the Bootstrap <hr> more */ }
-
-/* Thin out the marketing headings */
-/* line 60, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px; }
+/* line 45, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+.carousel-indicators {
+  position: absolute;
+  bottom: -5px; }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
-  /* line 71, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 54, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .navbar-wrapper {
     margin-top: 20px; }
 
-  /* line 74, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 57, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px; }
 
-  /* line 78, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 61, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0; }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  /* line 84, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 67, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .navbar-wrapper .navbar {
     border-radius: 4px; }
 
   /* Bump up size of carousel content */
-  /* line 89, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 72, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .carousel-caption p {
     margin-bottom: 0px;
     font-size: 21px;
     line-height: 1.4; }
 
-  /* line 95, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 78, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .featurette-heading {
     font-size: 50px; } }
 @media (min-width: 992px) {
-  /* line 101, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
+  /* line 84, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_carousel.scss */
   .featurette-heading {
     margin-top: 120px; } }
 /* line 2, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_footer.scss */
 #footer {
   background: #333333;
-  padding: 30px 0;
+  padding: 5px 0;
   color: #CCCCCC; }
 
 /* line 7, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_footer.scss */
@@ -10284,6 +10268,10 @@ h2 {
   width: 100%;
   background: transparent; }
 
+/* line 1, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_map.scss */
+.map-container {
+  background-color: black; }
+
 /*!
  * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -10295,58 +10283,76 @@ body {
   /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
 
 /* line 12, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+.nav-container {
+  padding-left: 0px; }
+
+/* line 17, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 10px 10px 10px;
   border-color: transparent; }
 
-/* line 17, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 22, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .navbar-fixed-top .nav {
-  padding: 20px 0; }
+  padding-left: 65px; }
 
-/* line 20, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 25, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .navbar-header {
   padding-left: 0px; }
 
 @media (min-width: 0px) {
-  /* line 26, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+  /* line 31, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
   body {
     padding-top: 0px;
     /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */ }
 
-  /* line 31, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+  /* line 36, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
   .navbar-fixed-top .navbar-brand {
     padding: 0px 10px;
     border-width: 30px; } }
-/* line 37, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 42, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .navbar {
   opacity: 0.97; }
 
-/* line 41, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 46, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .banner-content h1 {
   color: white;
   text-shadow: 2px 2px #ff0000;
   opacity: 0.9;
   left: 0px; }
 
-/* line 47, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 52, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .banner-content p {
   color: white;
   text-shadow: 1px 1px black;
   opacity: 0.6; }
 
-/* line 53, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 58, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .navbar a:hover {
   color: white;
   -webkit-transition: 200ms ease-in;
   transition: 200ms ease-in; }
 
-/* line 57, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 62, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .invert:hover {
   -webkit-filter: invert(100%);
   filter: invert(100%);
   -webkit-transition: 300ms ease-in;
   transition: 300ms ease-in; }
+
+/* line 67, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+.navbar-brand {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 50px;
+  height: 50px;
+  position: absolute; }
 
 /* -------------------------------------
  * Utilities classes
@@ -10373,6 +10379,24 @@ body {
 /* line 23, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_utilities.css.scss */
 .bg-facebook {
   background: #3b5998; }
+
+/* line 1, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+.menu {
+  font-weight: lighter;
+  padding-bottom: 20px; }
+
+/* line 6, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+.menu h2 {
+  margin-bottom: 0px; }
+
+/* line 10, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+.dish-name {
+  text-decoration: underline;
+  font-size: 20px; }
+
+/* line 19, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+.dish-price {
+  font-size: 15px; }
 
 /*
 ==============================================

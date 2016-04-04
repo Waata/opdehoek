@@ -10759,7 +10759,7 @@ return jQuery;
 
   Carousel.VERSION  = '3.3.6'
 
-  Carousel.TRANSITION_DURATION = 1000
+  Carousel.TRANSITION_DURATION = 600
 
   Carousel.DEFAULTS = {
     interval: 5000,
@@ -12747,7 +12747,3 @@ var isNavBarShown = true;
         });
     });
 }(jQuery));
-
-
-
-
