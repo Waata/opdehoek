@@ -21,7 +21,7 @@
   left: 0;
 }
 .index .carousel .item{
-  max-height: 500px;
+  max-height: 550px;
 }
 
 .index .carousel .item{
@@ -31,37 +31,20 @@
   background-position: center;
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+.carousel-control {
+  opacity: 0.1;
+  size:10px;
 }
 
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 0px 0; /* Space out the Bootstrap <hr> more */
+.carousel-control {
+  opacity: 0.1;
+  size: 10px
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-
+.carousel-indicators {
+    position: absolute;
+    bottom: -5px;
+    }
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

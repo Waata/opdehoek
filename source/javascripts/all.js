@@ -42,7 +42,3 @@ var isNavBarShown = true;
         });
     });
 }(jQuery));
-
-
-
-
