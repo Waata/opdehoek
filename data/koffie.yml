@@ -1,10 +1,16 @@
 
 - name: Koffie
   description: Americano
-  price: 10,-
+  price: 
 - name: Espresso
   description: klein maar sterk
-  price: 12,-
+  price: 
+- name: Espresso Machiato
+  description: klein maar sterk
+  price: 
 - name: Cappucino
   description: espresso met opgeschuimde melk
-  price: 10,-
+  price: 
+- name: Latte Machiato
+  description: klein maar sterk
+  price: 

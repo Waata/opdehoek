@@ -4,12 +4,11 @@
   <div class="container">
     <h2 class="text-center">Ons menu.</h2>
     <div class="row">
-
       <div class="col-xs-12 col-md-6">
         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/card-london.jpg');height:600px">
           <div class="card-category">Lunch</div>
           <div class="card-description">
-            <% data.lunch.each do |dish| %>
+            <% data.lunch.first(10).each do |dish| %>
             <div class = "dish-name"><%= dish["name"] %></div>  
             <div class = "dish-description"><%= dish["description"] %></div>
             <% end %>
@@ -21,7 +20,7 @@
         <div class="card" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url('images/background.jpg');height:600px">
          <div class="card-category">Diner</div>
          <div class="card-description">
-          <% data.diner.each do |dish| %>
+          <% data.diner.first(10).each do |dish| %>
           <div class = "dish-name"><%= dish["name"] %></div>  
           <div class = "dish-description"><%= dish["description"] %></div>
           <% end %>
@@ -34,15 +33,15 @@
         <div class="card-category"></div>
         <div class="card-description">
           <p>Bij Op De Hoek zijn onze gasten altijd welkom voor een heerlijk kopje koffie.</p>
-          <% data.koffie.each do |dish| %>
-          <div class = "dish-name"><%= dish["name"] %></div>  
+          <% data.koffie.first(5).each do |koffie| %>
+          <div class = "koffie-name"><%= koffie["name"] %></div>  
           <% end %>
         </div>
         <a class="card-link" href="" ></a>
       </div>
     </div>
     <div class="col-xs-12  ">
-      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('images/card-brussels.jpg');">
+      <div class="card" style="background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.3)), url('images/background7.jpg');">
         <div class="card-category"></div>
         <div class="card-description">
           <h2>‘Feesten & Partijen’</h2>
@@ -53,13 +52,13 @@
     </div>
   </div>
 </div>
-<div class="text-center padded" id="newsletter">
+<!-- <div class="text-center padded" id="newsletter">
   <h2>Blijf op de hoogte.</h2>
   <p>Laat je mail achter en blijf op de hoogte.</p>
   <form class="form-inline">
     <input type="email" placeholder="bakkum@gmail.com" class="form-control">
     <input type="submit" value="Subscribe" class="btn btn-primary">
-  </form>
+  </form> -->
 </div>
 
 

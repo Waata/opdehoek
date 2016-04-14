@@ -4,7 +4,7 @@
 }
 
 .menu h2 {
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .dish-name {
@@ -13,9 +13,18 @@
 }
 
 .dish-description {
-
 }
 
 .dish-price {
   font-size: 15px;
+}
+
+.w-section {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+.menu-container {
+  background-color: aliceblue;
 }

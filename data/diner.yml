@@ -9,5 +9,14 @@
 - name: Pizza margarita
   description: mozzarella strooikaas basilicum olie
   price: 10,-
+- name: Pizza Vegetariana
+  description: mozzarella geitenkaas & gegrilde groenten
+  price: 10,-
+- name: Pizza Tonno
+  description: mozzarella, tonijn, kappertjes
+  price: 12,-
+- name: Pizza
+  description: mozzarella strooikaas basilicum olie
+  price: 10,-
 
 # past niet in card!!!

@@ -1,12 +1,24 @@
 # lunch yml
 
 - name: Old Amsterdam
-  description: heerlijk broodje met oude kaas
-  price: 10,-
-- name: Old Amsterdam
-  description: heerlijk broodje met oude kaas
-  price: 10,-
-- name: Old Amsterdam
-  description: heerlijk broodje met oude kaas
-  price: 10,-
+  description: Heerlijk broodje met oude kaas
+  price: 
+- name: Osseworst
+  description: Heerlijk broodje met osseworst en moster mayo
+  price: 
+- name: Tonijnsalade
+  description: Heerlijk broodje met Tonijnsalade 
+  price: 
+- name: Eiersalade
+  description: Heerlijk broodje met Eiersalade
+  price: 
+- name: OpDeHoek
+  description: Heerlijk broodje met pittige salami & paprika
+  price: 
+- name: Geitje
+  description: Heerlijk broodje met Geitenkaas
+  price: 
+- name: Kipje
+  description: Heerlijk broodje met gerookte kipfilet
+  price: 
 # past niet in card 
