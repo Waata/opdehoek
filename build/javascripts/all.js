@@ -10759,7 +10759,7 @@ return jQuery;
 
   Carousel.VERSION  = '3.3.6'
 
-  Carousel.TRANSITION_DURATION = 3000
+  Carousel.TRANSITION_DURATION = 600
 
   Carousel.DEFAULTS = {
     interval: 5000,
@@ -12703,13 +12703,6 @@ return jQuery;
 
 
 
-
-
-
-
-
-// alert("Welkom op de Beta site van OpDeHoek")
-
 (function ($) {
 var isNavBarShown = true;
 
@@ -12747,3 +12740,11 @@ var isNavBarShown = true;
         });
     });
 }(jQuery));
+
+
+
+
+
+// alert("Welkom op de Beta site van OpDeHoek")
+
+;

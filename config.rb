@@ -79,7 +79,7 @@ configure :build do
   activate :build_cleaner
 end
 
-# Deployment
+#Deployment
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.build_before = true
@@ -90,3 +90,11 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+# activate :deploy do |deploy|
+#   deploy.deploy_method   = :ftp
+#   deploy.host            = 'ftp.coffeeopdehoek.nl'
+#   deploy.path            = 'public/sites/www.coffeeopdehoek.nl'
+#   deploy.user            = 'md385426'
+#   deploy.password        = 'OpDeHoek130487'
+# end

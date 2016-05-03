@@ -10387,16 +10387,26 @@ body {
 
 /* line 6, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
 .menu h2 {
-  margin-bottom: 0px; }
+  margin-bottom: 15px; }
 
 /* line 10, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
 .dish-name {
   text-decoration: underline;
   font-size: 20px; }
 
-/* line 19, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+/* line 18, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
 .dish-price {
   font-size: 15px; }
+
+/* line 22, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+.w-section {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px; }
+
+/* line 28, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/pages/_menu.scss */
+.menu-container {
+  background-color: aliceblue; }
 
 /*
 ==============================================
