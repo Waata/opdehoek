@@ -10333,14 +10333,14 @@ body {
   -webkit-transition: 200ms ease-in;
   transition: 200ms ease-in; }
 
-/* line 62, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 63, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .invert:hover {
   -webkit-filter: invert(100%);
   filter: invert(100%);
   -webkit-transition: 300ms ease-in;
   transition: 300ms ease-in; }
 
-/* line 67, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
+/* line 68, /Users/wouterkompierw/GitHub/opdehoek-site/source/stylesheets/layout/_navbar.css.scss */
 .navbar-brand {
   display: -webkit-box;
   display: -webkit-flex;
@@ -10352,7 +10352,9 @@ body {
           flex: 1;
   width: 50px;
   height: 50px;
-  position: absolute; }
+  position: absolute;
+  -webkit-filter: invert(100%);
+  filter: invert(100%); }
 
 /* -------------------------------------
  * Utilities classes

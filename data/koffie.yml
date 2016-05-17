@@ -1,16 +1,18 @@
-
+- name: Espresso
+  description: klein maar krachtig
+  price: 
 - name: Koffie
   description: Americano
   price: 
-- name: Espresso
-  description: klein maar sterk
-  price: 
 - name: Espresso Machiato
-  description: klein maar sterk
+  description: klein maar sterk met een beetje melk
   price: 
-- name: Cappucino
+- name: Cappuccino
   description: espresso met opgeschuimde melk
   price: 
+- name: Cafe Latte
+  description: espresso met flink wat melk 'koffie verkeerd'
+  price: 
 - name: Latte Machiato
-  description: klein maar sterk
+  description: shot espresso met mooi geschuimde melk in een tall drink
   price: 

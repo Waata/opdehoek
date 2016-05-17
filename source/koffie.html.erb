@@ -1,0 +1,25 @@
+      <div class="banner" style="background: url('images/card-brussels.jpg');height:60vh;">
+      </div>
+      <div class="diner-container text-center">
+        <div class="row">
+        <div class="w-section">
+            <div class="menu-container">
+              <div class="col-xs-12 menu">
+                <h1>Koffie</h1>
+                <p> Al onze koffies zijn op basis van een espresso 'shot' </p>
+                <% data.koffie.each do |dish| %>
+                <div class = "dish-name"><%= dish["name"] %></div>  
+                <div class = "dish-description"><%= dish["description"] %></div>
+                <div class = "dish-price"><%= dish["price"] %></div> 
+                <% end %>
+                <br>
+                <p> Alle koffies zijn er ook To-Go </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <a href="lunch.html">Bekijk ook de lunchkaart</a>
+      <br>
+    <a href="diner.html"> Bekijk ook de dinerkaart</a>
+          </div>
